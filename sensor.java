@@ -1,12 +1,10 @@
-public class Sensor{
-public int sense(int x) {
-   double value = Math.random();
-   if(value>x)
-   {
-    return 1;
+public class Sensor {
+   public int sense(double p) {
+       double value = Math.random();
+       if (value > p) {
+           return 1;
+       } else {
+           return 0;
+       }
    }
-   else
-   {
-    return 0;
-   }
-}}
+}
