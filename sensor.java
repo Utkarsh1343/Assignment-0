@@ -1,7 +1,7 @@
- public class sensor{
-public static int main(String[] args,int p) {
+public class Sensor{
+public int sense(int x) {
    double value = Math.random();
-   if(value>p)
+   if(value>x)
    {
     return 1;
    }
